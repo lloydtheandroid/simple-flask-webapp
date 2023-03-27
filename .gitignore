@@ -1,0 +1,32 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# sqlite
+*.sql
+
+# python
+*.pyc
+
+.env
+/venv
+
+# dependencies
+hello-world-app/node_modules
+hello-world-app/.pnp
+hello-world-app/.pnp.js
+
+# testing
+hello-world-app/coverage
+
+# production
+hello-world-app/build
+
+# misc
+hello-world-app/.DS_Store
+hello-world-app/.env.local
+hello-world-app/.env.development.local
+hello-world-app/.env.test.local
+hello-world-app/.env.production.local
+
+hello-world-app/npm-debug.log*
+hello-world-app/yarn-debug.log*
+hello-world-app/yarn-error.log*
